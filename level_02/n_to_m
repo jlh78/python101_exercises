@@ -1,0 +1,9 @@
+count = 0
+while count < 10:
+    count = count + 1 
+    print(count)
+start = int(input('what is he starting number? '))
+end = int(input('what is the ending number? '))
+while start <= end:
+    print(start)
+    start = start + 1
